@@ -44,7 +44,7 @@ CASOS = [
     ("cardápio automático", conversa((1, "a", PROSPECCAO), (0.99998, "c", "Café Exemplo thanks for contacting us. In order "
      "to send you a quote we will need some information. Which menu would you like a quote for? Opening hours: Monday - "
      "Friday 9am to 8pm")), "PROSPECCAO"),
-    ("'Oi Ok' depois de 'Posso mandar?'", conversa((2, "a", "Diego, boa tarde! Vi uma avaliação da Padaria Exemplo. Gravei "
+    ("'Oi Ok' depois de 'Posso mandar?'", conversa((2, "a", "Murilo, boa tarde! Vi uma avaliação da Padaria Exemplo. Gravei "
      "um vídeo rápido mostrando como colocar esse resultado na frente de quem procura no Google. Posso mandar?"),
                                                   (1.9, "c", "Oi\nOk")), "VIDEO_ACEITO"),
     ("3 toques e só 'Obrigado'", conversa((23, "a", PROSPECCAO), (14, "a", FU1),
